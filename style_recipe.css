@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 25px 35px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+}
+
+.first_list{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 15px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
+.first_list_text{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+
+.first_list ul,.second_list ul,.third_list ol{
+    padding-left: 20px;
+}
+
+.first_list li,.second_list li,.third_list li{
+    padding-left: 20px;
+    line-height: 1.9rem;
+}
+
+
+p{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.bold{
+    color: black;
+    font-weight: bold;
+}
+
+.second_list{
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.third_list{
+    border-bottom: 1px solid grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+table .no_border th, table .no_border td{
+    border-bottom: none;
+}
+table th {
+    color: #a0522d;
+}
+
+table td {
+    background-color: #fff;
+}
